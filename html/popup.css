@@ -1,0 +1,47 @@
+body {
+  min-width: 300px;
+}
+
+.submit {
+  width: 100%;
+  background-color: white;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  height: 1.5rem;
+}
+
+.submit:hover {
+  background-color: rgb(243, 243, 243);
+}
+
+input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #bbb;
+  height: 1.5rem;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li button {
+  background-color: rgb(255, 130, 130);
+  border: none;
+  color: white;
+  height: 1.3rem;
+}
+
+ul li button:hover {
+  background-color: red;
+}

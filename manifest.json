@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Remove Spoilers",
+  "version": "1.0.0",
+  "permissions": ["storage"],
+  "description": "Hides spoilers of your favorite tv shows",
+  "content_scripts": [
+    {
+      "matches": ["*://twitter.com/*"],
+      "js": ["js/main.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "images/icon.png",
+    "default_popup": "html/popup.html",
+    "default_title": "Spoilers Blocker, Browse the internet safely!"
+  }
+}
