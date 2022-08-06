@@ -7,12 +7,12 @@
   "content_scripts": [
     {
       "matches": ["*://twitter.com/*"],
-      "js": ["js/main.js"]
+      "js": ["background-process/main.js"]
     }
   ],
   "browser_action": {
     "default_icon": "images/icon.png",
-    "default_popup": "html/popup.html",
+    "default_popup": "popup/popup.html",
     "default_title": "Spoilers Blocker, Browse the internet safely!"
   }
 }
